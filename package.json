@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "heroku-postbuild": "cd Client && npm install && npm install && npm run build",
+    "start": "nodemon app.js ",
+    "Client": "cd Client && npm start",
+    "build": "cd Client && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sujit Khopade",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {},
+  "description": ""
+}

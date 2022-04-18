@@ -1,0 +1,19 @@
+.background{
+    color: black;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 50%;
+    margin-top: 120px;
+    margin-bottom: 125px;
+    text-align: center;
+}
+.bttn{
+    width:140px;
+    align-self: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color:black;
+}
